@@ -40,7 +40,14 @@ This project analyzes pizza sales data using SQL and Excel to identify sales tre
 - Interactive Pivot Charts
 
 ---
+## Key Findings
+- Classic category generated the highest number of orders and total pizzas sold.
+- Large pizzas contributed the highest revenue among all sizes.
+- Customer demand peaked between 12–1 PM and 4–8 PM, especially on Friday and Saturday evenings.
+- Classic Deluxe Pizza was the best-selling product with 2,453 pizzas sold.
+- Brie Carre Pizza recorded the lowest sales performance in both orders and revenue.
 
+---
 ## Files Included
 - `pizza_sales.sql` → SQL queries for data analysis
 - `dashboard.xlsx` → Excel dashboard and Pivot Tables
@@ -49,4 +56,4 @@ This project analyzes pizza sales data using SQL and Excel to identify sales tre
 ---
 
 ## Project Outcome
-This analysis helps identify customer purchasing patterns and supports data-driven business decisions for improving sales performance.
+The project provides data-driven insights into customer purchasing behavior, sales trends, and product performance through SQL analysis and an interactive Excel dashboard, enabling informed business decision-making. outcome
