@@ -40,12 +40,17 @@ Project này phân tích dữ liệu bán hàng pizza bằng **SQL** và **Excel
 - Pivot Chart tương tác
 
 ---
+
+## Kiểm Tra Chất Lượng Dữ Liệu (Data QA)
+Trong quá trình xây dựng dashboard, phát hiện Pivot Table "Bottom 5 Worst Sellers" bị lỗi hiển thị một nhóm "(blank)" do vùng dữ liệu nguồn (data source range) được thiết lập vượt quá số dòng dữ liệu thực tế. Đã tiến hành đối chiếu lại với dữ liệu gốc, xác định vùng dữ liệu chính xác và cập nhật lại Pivot Table để đảm bảo kết quả phân tích chính xác 100%.
+
+---
 ## Phát Hiện Chính (Key Findings)
 - Danh mục Classic ghi nhận số lượng đơn hàng và tổng số pizza bán ra cao nhất trong tất cả các danh mục. → Gợi ý: nên ưu tiên đảm bảo nguồn nguyên liệu ổn định cho nhóm Classic vì đây là danh mục chủ lực, đồng thời cân nhắc mở rộng thêm biến thể trong dòng sản phẩm này.
 - Pizza cỡ Large (Lớn) đóng góp doanh thu cao nhất trong tất cả các kích cỡ. → Gợi ý: có thể đẩy mạnh chương trình khuyến khích khách hàng nâng cấp lên size Large (upsize) tại các điểm bán hoặc trên kênh đặt hàng online.
 - Nhu cầu khách hàng đạt đỉnh trong khung giờ 12h–13h và 16h–20h, đặc biệt vào tối thứ Sáu và thứ Bảy. → Gợi ý: nên bố trí thêm nhân sự và tối ưu quy trình bếp trong các khung giờ cao điểm này để giảm thời gian chờ và tăng trải nghiệm khách hàng.
 - Classic Deluxe Pizza là sản phẩm bán chạy nhất với 2.453 pizza được bán ra. → Gợi ý: có thể dùng sản phẩm này làm "món chủ lực" trong các chiến dịch marketing hoặc combo khuyến mãi.
-- Brie Carre Pizza ghi nhận hiệu suất thấp nhất, cả về số lượng đơn hàng lẫn doanh thu. → Gợi ý: cần xem xét lại menu — có thể cải tiến công thức, điều chỉnh giá, hoặc loại bỏ sản phẩm này để tối ưu chi phí vận hành.
+- Brie Carre Pizza ghi nhận hiệu suất thấp nhất với chỉ **490 pizza** bán ra, thấp hơn đáng kể so với sản phẩm đứng thứ 5 từ dưới lên (Spinach Pesto Pizza, 970 pizza) — gần như thấp hơn gấp đôi. → Gợi ý: cần xem xét lại menu — có thể cải tiến công thức, điều chỉnh giá, hoặc loại bỏ sản phẩm này để tối ưu chi phí vận hành.
 
 ---
 ## Các File Đính Kèm
