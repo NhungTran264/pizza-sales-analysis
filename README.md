@@ -1,59 +1,59 @@
-# Pizza Sales Data Analysis
+# Phân Tích Dữ Liệu Bán Hàng Pizza (Pizza Sales Data Analysis)
 
-## Project Overview
-This project analyzes pizza sales data using SQL and Excel to identify sales trends, customer behavior, and product performance. The goal is to generate business insights and create an interactive dashboard for decision-making.
+## Tổng Quan Project
+Project này phân tích dữ liệu bán hàng pizza bằng **SQL** và **Excel** nhằm xác định xu hướng bán hàng, hành vi khách hàng và hiệu suất sản phẩm. Mục tiêu là tạo ra các insight kinh doanh cụ thể và xây dựng một dashboard tương tác phục vụ việc ra quyết định.
 
 ---
 
-## Tools Used
+## Công Cụ Sử Dụng
 - SQL
 - Microsoft Excel
 - Pivot Tables
 - Pivot Charts
-- Data Cleaning
+- Data Cleaning (làm sạch dữ liệu)
 - Dashboard Visualization
 
 ---
 
-## Key Business Questions
-- What are the peak order hours?
-- Which pizza categories generate the highest revenue?
-- What are the best-selling and worst-selling pizzas?
-- How does sales performance vary by day and month?
+## Câu Hỏi Phân Tích Chính
+- Khung giờ nào có lượng đơn hàng cao nhất?
+- Danh mục pizza nào tạo ra doanh thu cao nhất?
+- Sản phẩm nào bán chạy nhất và bán chậm nhất?
+- Doanh số bán hàng thay đổi như thế nào theo ngày và theo tháng?
 
 ---
 
-## Key KPIs
-- Total Revenue
-- Total Orders
-- Average Order Value
-- Total Pizzas Sold
-- Average Pizzas per Order
+## Các Chỉ Số KPI Chính
+- Tổng doanh thu (Total Revenue)
+- Tổng số đơn hàng (Total Orders)
+- Giá trị đơn hàng trung bình (Average Order Value)
+- Tổng số pizza đã bán (Total Pizzas Sold)
+- Số pizza trung bình mỗi đơn hàng (Average Pizzas per Order)
 
 ---
 
-## Dashboard Features
-- Daily and hourly sales trends
-- Revenue analysis
-- Category and size performance
-- Best-selling products visualization
-- Interactive Pivot Charts
+## Tính Năng Dashboard
+- Xu hướng bán hàng theo ngày và theo giờ
+- Phân tích doanh thu
+- Hiệu suất theo danh mục và kích cỡ pizza
+- Trực quan hóa sản phẩm bán chạy nhất
+- Pivot Chart tương tác
 
 ---
-## Key Findings
-- Classic category generated the highest number of orders and total pizzas sold.
-- Large pizzas contributed the highest revenue among all sizes.
-- Customer demand peaked between 12–1 PM and 4–8 PM, especially on Friday and Saturday evenings.
-- Classic Deluxe Pizza was the best-selling product with 2,453 pizzas sold.
-- Brie Carre Pizza recorded the lowest sales performance in both orders and revenue.
+## Phát Hiện Chính (Key Findings)
+- Danh mục Classic ghi nhận số lượng đơn hàng và tổng số pizza bán ra cao nhất trong tất cả các danh mục. → Gợi ý: nên ưu tiên đảm bảo nguồn nguyên liệu ổn định cho nhóm Classic vì đây là danh mục chủ lực, đồng thời cân nhắc mở rộng thêm biến thể trong dòng sản phẩm này.
+- Pizza cỡ Large (Lớn) đóng góp doanh thu cao nhất trong tất cả các kích cỡ. → Gợi ý: có thể đẩy mạnh chương trình khuyến khích khách hàng nâng cấp lên size Large (upsize) tại các điểm bán hoặc trên kênh đặt hàng online.
+- Nhu cầu khách hàng đạt đỉnh trong khung giờ 12h–13h và 16h–20h, đặc biệt vào tối thứ Sáu và thứ Bảy. → Gợi ý: nên bố trí thêm nhân sự và tối ưu quy trình bếp trong các khung giờ cao điểm này để giảm thời gian chờ và tăng trải nghiệm khách hàng.
+- Classic Deluxe Pizza là sản phẩm bán chạy nhất với 2.453 pizza được bán ra. → Gợi ý: có thể dùng sản phẩm này làm "món chủ lực" trong các chiến dịch marketing hoặc combo khuyến mãi.
+- Brie Carre Pizza ghi nhận hiệu suất thấp nhất, cả về số lượng đơn hàng lẫn doanh thu. → Gợi ý: cần xem xét lại menu — có thể cải tiến công thức, điều chỉnh giá, hoặc loại bỏ sản phẩm này để tối ưu chi phí vận hành.
 
 ---
-## Files Included
-- `pizza_sales.sql` → SQL queries for data analysis
-- `dashboard.xlsx` → Excel dashboard and Pivot Tables
-- `dashboard.png` → Dashboard preview image
+## Các File Đính Kèm
+- `pizza_sales.sql` → Câu lệnh SQL dùng để phân tích dữ liệu
+- `dashboard.xlsx` → Dashboard Excel và các Pivot Table
+- `dashboard.png` → Ảnh preview dashboard
 
 ---
+## Kết Quả Project
+Project này cung cấp các insight dựa trên dữ liệu về hành vi mua hàng của khách hàng, xu hướng bán hàng và hiệu suất sản phẩm thông qua phân tích SQL kết hợp với dashboard Excel tương tác, giúp hỗ trợ việc ra quyết định kinh doanh dựa trên dữ liệu.
 
-## Project Outcome
-The project provides data-driven insights into customer purchasing behavior, sales trends, and product performance through SQL analysis and an interactive Excel dashboard, enabling informed business decision-making. outcome
